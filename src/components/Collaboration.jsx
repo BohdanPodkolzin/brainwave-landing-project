@@ -13,7 +13,6 @@ const Colaboration = () => {
                     AI Chat App for seamless collaboration
                 </h2>
     
-
                 <ul className="max-w-[22rem] mb-10 md:mb-14">
                     {collabContent.map((item) => (
                     <li className="mb-3 py-3" key={item.id}>
@@ -27,10 +26,10 @@ const Colaboration = () => {
                     </li>
                     ))}
                 </ul>
-
+                
                 <Button>Try it now</Button>
             </div>
-
+            
             <div className="lg:ml-auto xl:w-[38rem] mt-4">
                 <p className="body-2 mb-4 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem]
                 lg:mx-auto">{collabText}</p>
