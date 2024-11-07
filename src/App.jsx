@@ -1,11 +1,12 @@
 import ButtonGradient from './assets/svg/ButtonGradient'
 import Benefits from './components/Benefits'
-import Button from './components/Button'
 import Colaboration from './components/Collaboration'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import Pricing from './components/Pricing'
+import Roadmap from './components/Roadmap'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
         <Colaboration />
         <Services />
         <Pricing />
+        <Roadmap />
+        <Footer />
       </div>
       <ButtonGradient />
     </>
